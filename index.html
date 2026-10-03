@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>স্মার্ট প্রযুক্তি</title>
+
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;color:#172033;background:#f7fafc}
+header{background:#087f8c;color:white;padding:18px}
+.container{width:92%;max-width:1100px;margin:auto}
+.logo{font-size:28px;font-weight:bold}
+nav{margin-top:10px}
+nav a{color:white;text-decoration:none;margin-right:18px}
+.hero{padding:70px 0;text-align:center;background:#e7f8f7}
+.hero h1{font-size:42px;color:#087f8c}
+.hero p{font-size:18px;color:#555}
+.button{display:inline-block;background:#087f8c;color:white;padding:13px 22px;border-radius:8px;text-decoration:none;margin-top:15px}
+section{padding:55px 0}
+h2{text-align:center;font-size:32px}
+.products{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.product{background:white;padding:20px;border-radius:15px;box-shadow:0 3px 15px #0001;text-align:center}
+.product .icon{font-size:65px}
+.product h3{font-size:20px}
+.price{font-size:21px;color:#087f8c;font-weight:bold}
+.contact{background:#eaf4f5}
+.contact-box{background:white;padding:25px;border-radius:15px;max-width:600px;margin:auto}
+footer{background:#172033;color:white;text-align:center;padding:25px}
+
+@media(max-width:700px){
+.products{grid-template-columns:1fr 1fr}
+.hero h1{font-size:32px}
+}
+@media(max-width:450px){
+.products{grid-template-columns:1fr}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<div class="logo">স্মার্ট প্রযুক্তি</div>
+<nav>
+<a href="#home">হোম</a>
+<a href="#products">পণ্য</a>
+<a href="#about">আমাদের সম্পর্কে</a>
+<a href="#contact">যোগাযোগ</a>
+</nav>
+</div>
+</header>
+
+<section class="hero" id="home">
+<div class="container">
+<h1>স্মার্ট প্রযুক্তি</h1>
+<p>আধুনিক ইলেকট্রনিক পণ্যের বিশ্বস্ত ঠিকানা</p>
+<p>মোবাইল অ্যাক্সেসরিজ, চার্জার, হেডফোন, কেবল ও বিভিন্ন গ্যাজেট পাওয়া যায়।</p>
+<a class="button" href="#products">পণ্য দেখুন</a>
+</div>
+</section>
+
+<section id="products">
+<div class="container">
+<h2>আমাদের পণ্য</h2>
+
+<div class="products">
+
+<div class="product">
+<div class="icon">🎧</div>
+<h3>ব্লুটুথ হেডফোন</h3>
+<p>উন্নত সাউন্ড ও সুন্দর ডিজাইন</p>
+<div class="price">৳ ১,২৫০</div>
+</div>
+
+<div class="product">
+<div class="icon">🔌</div>
+<h3>ফাস্ট চার্জার</h3>
+<p>দ্রুত ও নিরাপদ চার্জিং</p>
+<div class="price">৳ ৬৫০</div>
+</div>
+
+<div class="product">
+<div class="icon">🔋</div>
+<h3>পাওয়ার ব্যাংক</h3>
+<p>দৈনন্দিন ব্যবহারের জন্য</p>
+<div class="price">৳ ১,৮৫০</div>
+</div>
+
+<div class="product">
+<div class="icon">🔗</div>
+<h3>ডাটা কেবল</h3>
+<p>টেকসই ও দ্রুত ডাটা ট্রান্সফার</p>
+<div class="price">৳ ৩৫০</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="about">
+<div class="container">
+<h2>আমাদের সম্পর্কে</h2>
+<p style="text-align:center">
+স্মার্ট প্রযুক্তি একটি ইলেকট্রনিক্স ব্যবসা। আমরা মানসম্মত পণ্য
+সাশ্রয়ী দামে দেওয়ার চেষ্টা করি।
+</p>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="container">
+<h2>যোগাযোগ করুন</h2>
+
+<div class="contact-box">
+<p>📞 ফোন: ০১০০০-০০০০০০</p>
+<p>💬 WhatsApp: ০১০০০-০০০০০০</p>
+<p>📍 ঠিকানা: আপনার দোকানের ঠিকানা এখানে লিখুন</p>
+
+<a class="button" href="tel:01000000000">এখনই কল করুন</a>
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>© ২০২৬ স্মার্ট প্রযুক্তি</p>
+<p>সর্বস্বত্ব সংরক্ষিত</p>
+</footer>
+
+</body>
+</html>
